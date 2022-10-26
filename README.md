@@ -1,0 +1,3 @@
+# solutionsapp
+
+Solutions Java exercises 
