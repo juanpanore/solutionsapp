@@ -10,7 +10,7 @@ public class TestMeli {
         List<String> listParenthesis = new ArrayList<>();
         listParenthesis.add("[]{}()");
         listParenthesis.add("{{{[[[]]]}}}");
-        listParenthesis.add("{{{[[[]]]}}}()}");
+        listParenthesis.add("{{{[[[]]]}}}(){}[]{{{((()))}}}");
         validateSecuence(listParenthesis).forEach(r -> System.out.println(r));
     }
 
